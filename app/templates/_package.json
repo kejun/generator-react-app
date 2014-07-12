@@ -11,7 +11,7 @@
     "gulp-concat": "~2.2.0",
     "gulp-jshint": "^1.7.1",
     "css-loader": "~0.6.12",
-    "gulp-sass": "~0.7.1",
+    "gulp-sass": "^0.7.1",
     "gulp-uglify": "~0.3.0",
     "gulp-util": "~2.2.14",
     "jsx-loader": "~0.10.2",
@@ -27,6 +27,7 @@
     "webpack": "~1.1.11",
     "gulp-rename": "~1.2.0",
     "style-loader": "~0.6.3",
+    "cuvee-ui": "git://github.com/kejun/cuvee-ui.git",
     "url-loader": "~0.5.5"
   },
   "devDependencies": {
