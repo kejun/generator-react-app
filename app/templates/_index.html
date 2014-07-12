@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
+  <title>Demo - <%= _.slugify(appName)%></title>
+  <link rel="stylesheet" href="css/<%= _.slugify(appName)%>-combine.css" />
+</head>
+<body>
+<div id="root"></div>
+<script type="text/javascript" src="js/<%= _.slugify(appName)%>-external.js"></script>
+<script type="text/javascript" src="js/<%= _.slugify(appName)%>-combine.js"></script>
+<script type="text/javascript">
+  app.start(document.getElementById('root'));
+</script>
+</body>
+</html>

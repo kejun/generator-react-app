@@ -1,0 +1,43 @@
+{
+  "name": "<%= _.slugify(appName)%>",
+  "version": "0.0.0",
+  "description": "(记得写上项目描述)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "es6-promise": "~1.0.0",
+    "gulp": "^3.8.6",
+    "gulp-autoprefixer": "~0.0.6",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-jshint": "^1.7.1",
+    "css-loader": "~0.6.12",
+    "gulp-sass": "~0.7.1",
+    "gulp-uglify": "~0.3.0",
+    "gulp-util": "~2.2.14",
+    "jsx-loader": "~0.10.2",
+    <% if (useReactTouch) { %>
+      "react": "~0.9",
+      "react-touch": "~0.0.6",
+    <% } else { %>
+      "react": "^0.10",
+    <% } %>
+    "file-loader": "~0.5.1",
+    "envify": "~1.2.1",
+    "sass-loader": "~0.1.1",
+    "webpack": "~1.1.11",
+    "gulp-rename": "~1.2.0",
+    "style-loader": "~0.6.3",
+    "url-loader": "~0.5.5"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ls"
+  ],
+  "author": "kejun",
+  "license": "ISC"
+}

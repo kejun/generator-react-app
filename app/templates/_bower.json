@@ -1,0 +1,16 @@
+{
+  "name": "<%= _.slugify(appname)%>",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+<% if (useLibZyngaScroller) { %>
+    "scroller": "~1.2.2"
+<% } %>
+  }
+}
